@@ -2,8 +2,12 @@ package ru.otus.spring.domain;
 
 public class Person {
 
-    private final String name;
-    private final int age;
+    private String name;
+    private int age;
+    private double result;
+
+    public Person() {
+    }
 
     public Person(String name, int age) {
         this.name = name;
